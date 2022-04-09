@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --red: #E50914;
+    --black: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  body {
+    background: var(--black);
+    font-size: 100%;
+    color: #FFF;
+  }
+
+/* HEADER STYLE */
+header .container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: left;
+}
+
+header .logo {
+    margin: 0.65rem 4rem;
+    color: var(--red);
+    font-family: 'Bebas Neue', Arial, cursive;
+    font-size: 2.5rem;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 0.625rem;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+/* HEADER END */
+
+
+/* MAIN STYLE */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1rem;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/assets/img/covers/cover-utopia.jpg');
+    background-size: cover;
+    height: 28rem;
+}
+
+.main-content .container{
+    width: 70%;
+}
+
+.main-content .title {
+    font-size: 2.5rem;
+    font-family:'Trebuchet MS', Arial, sans-serif;
+}
+
+.main-content .description {
+    margin: 1rem 0 2.5rem 0;
+}
+
+.btn-white {
+    background-color: white;
+    border-radius: 0.15rem;
+    border: none;
+    color: black;
+    padding: 0.8rem 1.8rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.btn-white i {
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+.btn-white:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-gray {
+    background-color: rgba(114, 114, 114, 0.6);
+    border-radius: 0.15rem;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.btn-gray:hover {
+    background-color: white;
+    color: black;
+}
+/* MAIN END */
