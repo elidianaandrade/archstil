@@ -21,7 +21,7 @@
   }
 
 /* HEADER STYLE */
-header .container {
+header .container-header {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -58,7 +58,7 @@ header nav a:hover{
     font-size: 1rem;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/assets/img/covers/cover-cathedral-santa-maria-del-fiore-italy.jpeg');
     background-size: cover;
-    height: 38rem;
+    height: 34rem;
 }
 
 .main-content .container{
@@ -125,7 +125,7 @@ header nav a:hover{
 
 /* CAROUSEL STYLE */
 .carousel-archstil {
-    margin-bottom: 10rem;
+    margin: 10rem 0;
 }
 
 .cover-arch {
