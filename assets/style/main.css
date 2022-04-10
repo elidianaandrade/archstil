@@ -28,7 +28,6 @@ header .container {
     justify-content: left;
     position: absolute;
     width: 100%;
-    position: fixed;
 }
 
 header .logo {
@@ -64,6 +63,7 @@ header nav a:hover{
 
 .main-content .container{
     width: 70%;
+    margin-left: 4rem;
 }
 
 .main-content .title-main {
@@ -121,3 +121,19 @@ header nav a:hover{
     color: black;
 }
 /* MAIN END */
+
+
+/* CAROUSEL STYLE */
+.carousel-archstil {
+    margin-bottom: 10rem;
+}
+
+.cover-arch {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* CAROUSEL END */
