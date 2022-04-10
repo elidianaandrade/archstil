@@ -26,6 +26,9 @@ header .container {
     flex-flow: row wrap;
     align-items: center;
     justify-content: left;
+    position: absolute;
+    width: 100%;
+    position: fixed;
 }
 
 header .logo {
@@ -54,17 +57,22 @@ header nav a:hover{
     justify-content: center;
     align-items: flex-start;
     font-size: 1rem;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/assets/img/covers/cover-catedral-santa-maria-del-fiore.jpeg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/assets/img/covers/cover-cathedral-santa-maria-del-fiore-italy.jpeg');
     background-size: cover;
-    height: 28rem;
+    height: 38rem;
 }
 
 .main-content .container{
     width: 70%;
 }
 
-.main-content .title {
+.main-content .title-main {
     font-size: 2.5rem;
+    font-family:'Trebuchet MS', Arial, sans-serif;
+}
+
+.main-content .title-section {
+    font-size: 1.25rem;
     font-family:'Trebuchet MS', Arial, sans-serif;
 }
 
