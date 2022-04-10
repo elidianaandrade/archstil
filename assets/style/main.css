@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root{
-    --red: #E50914;
+    --beige: #807669;
+    --white: #F2F2F2;
+    --gray: rgb(197, 197, 197);
     --black: #141414;
 }
 
@@ -9,42 +11,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     list-style: none;
   }
 
-  body {
+body {
     background: var(--black);
     font-size: 100%;
-    color: #FFF;
+    color: var(--white);
   }
 
+a {
+    color: var(--gray);
+}
+
+a:hover {
+    color: var(--beige);
+}
+
+
 /* HEADER STYLE */
-header .container-header {
+header .container {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: left;
     position: absolute;
     width: 100%;
+    user-select: none;
 }
 
 header .logo {
-    margin: 0.65rem 4rem;
-    color: var(--red);
-    font-family: 'Bebas Neue', Arial, cursive;
-    font-size: 2.5rem;
+    height: 3rem;
+    margin: 0.8rem 3rem 0.8rem 4rem;    
 }
 
-header nav a{
+.menu-principal > ul > li {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.menu-principal a{
     text-decoration: none;
-    color: #AAA;
+    color: var(--gray);
     margin-right: 0.625rem;
 }
 
-header nav a:hover{
-    color: #FFF;
+.menu-principal a:hover{
+    color: var(--white);
 }
 /* HEADER END */
 
@@ -56,32 +76,36 @@ header nav a:hover{
     justify-content: center;
     align-items: flex-start;
     font-size: 1rem;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/assets/img/covers/cover-cathedral-santa-maria-del-fiore-italy.jpeg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.60), rgba(0,0,0,.90) 100%), url('/assets/img/covers/cover-cathedral-santa-maria-del-fiore-italy.jpeg') no-repeat fixed;
     background-size: cover;
-    height: 34rem;
+    height: 40rem;
 }
 
 .main-content .container{
-    width: 70%;
-    margin-left: 4rem;
+    width: 50%;
+    margin: 9rem 0 5rem 4rem;
 }
 
-.main-content .title-main {
-    font-size: 2.5rem;
-    font-family:'Trebuchet MS', Arial, sans-serif;
+.main-title {
+    font-size: 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 1rem 0;
 }
 
-.main-content .title-section {
+.main-subtitle {
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-description {
     font-size: 1.25rem;
-    font-family:'Trebuchet MS', Arial, sans-serif;
-}
-
-.main-content .description {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
     margin: 1rem 0 2.5rem 0;
 }
 
 .btn-white {
-    background-color: white;
+    background-color: var(--white);
     border-radius: 0.15rem;
     border: none;
     color: black;
@@ -99,15 +123,15 @@ header nav a:hover{
 }
 
 .btn-white:hover {
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 .btn-gray {
     background-color: rgba(114, 114, 114, 0.6);
     border-radius: 0.15rem;
     border: none;
-    color: white;
+    color: var(--white);
     padding: 0.8rem 1.8rem;
     margin-right: 1rem;
     font-size: 1rem;
@@ -117,15 +141,15 @@ header nav a:hover{
 }
 
 .btn-gray:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
 }
 /* MAIN END */
 
 
 /* CAROUSEL STYLE */
 .carousel-archstil {
-    margin: 10rem 0;
+    margin: 5rem 0;
 }
 
 .cover-arch {
@@ -133,7 +157,20 @@ header nav a:hover{
     height: 100%;
     width: 100%;
 }
-
-
-
 /* CAROUSEL END */
+
+
+/* FOOTER STYLE */
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 2rem 4rem;
+    font-size: 1rem;
+    color: var(--gray);
+}
+  
+
+  /* FOOTER END */
