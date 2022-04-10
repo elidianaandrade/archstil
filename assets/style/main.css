@@ -3,7 +3,7 @@
 :root{
     --beige: #807669;
     --white: #F2F2F2;
-    --gray: rgb(197, 197, 197);
+    --gray: #C5C5C5;
     --black: #141414;
 }
 
@@ -14,6 +14,8 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     list-style: none;
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #C5C5C5 #807669; 
   }
 
 body {
@@ -31,6 +33,21 @@ a:hover {
 }
 
 
+/* SCROLLBAR STYLE (Chrome, Edge, Safari Style) */
+body::-webkit-scrollbar {
+    width: 0.45rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #141414;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #555555;
+  }
+/* SCROLLBAR END */
+
+
 /* HEADER STYLE */
 header .container {
     display: flex;
@@ -44,7 +61,7 @@ header .container {
 
 header .logo {
     height: 3rem;
-    margin: 0.8rem 3rem 0.8rem 4rem;    
+    margin: 0.8rem 3rem 0.8rem 3.8rem;    
 }
 
 .menu-principal > ul > li {
@@ -76,20 +93,20 @@ header .logo {
     justify-content: center;
     align-items: flex-start;
     font-size: 1rem;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.60), rgba(0,0,0,.90) 100%), url('/assets/img/covers/cover-cathedral-santa-maria-del-fiore-italy.jpeg') no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,.80), rgba(0,0,0,.40), rgba(0,0,0,100) 100%), url('/assets/img/covers/cover-classic-coliseum-italy.jpg') no-repeat fixed;
     background-size: cover;
-    height: 40rem;
+    height: 34rem;
 }
 
 .main-content .container{
     width: 50%;
-    margin: 9rem 0 5rem 4rem;
+    margin: 14rem 0 4rem 4rem;
 }
 
 .main-title {
     font-size: 3rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .main-subtitle {
@@ -111,6 +128,7 @@ header .logo {
     color: black;
     padding: 0.8rem 1.8rem;
     margin-right: 1rem;
+    font-family: Arial, sans-serif;
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
@@ -118,7 +136,7 @@ header .logo {
 }
 
 .btn-white i {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-right: 0.5rem;
 }
 
@@ -134,10 +152,16 @@ header .logo {
     color: var(--white);
     padding: 0.8rem 1.8rem;
     margin-right: 1rem;
+    font-family: Arial, sans-serif;
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
     transition: .4s ease all;
+}
+
+.btn-gray i {
+    font-size: 1rem;
+    margin-right: 0.5rem;
 }
 
 .btn-gray:hover {
@@ -149,7 +173,13 @@ header .logo {
 
 /* CAROUSEL STYLE */
 .carousel-archstil {
-    margin: 5rem 0;
+    padding: 4rem;
+}
+
+.category-text {
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 1.5rem 0;    
 }
 
 .cover-arch {

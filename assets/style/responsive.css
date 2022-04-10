@@ -10,7 +10,8 @@
     }
 
     .main-content .container {
-        margin-top: 20rem;
+        margin: 45rem 0 10rem 4rem;
+        width: 70%;
     }
 
     .btn-white {
@@ -23,11 +24,14 @@
         margin-top: 0.3rem;
         width: 18rem;
         height: 3rem;
-        text-align: center;
     }
 
     .carousel-archstil {
-        margin: 10rem 0;
+        padding: 20rem 4rem 10rem 4rem;
+    }
+
+    .category-text {
+        margin: 1.5rem 0;    
     }
 
 }
