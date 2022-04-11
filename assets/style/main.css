@@ -94,7 +94,7 @@ header .logo {
     justify-content: center;
     align-items: flex-start;
     font-size: 1rem;
-    background: linear-gradient(rgba(0,0,0,.80), rgba(0,0,0,.40), rgba(0,0,0,100) 100%), url('https://raw.githubusercontent.com/elidianaandrade/archstil/main/assets/img/covers/cover-classic-coliseum-italy.jpg') no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,.80), rgba(0,0,0,.40), rgba(0,0,0,100) 100%), url('/assets/img/covers/cover-classic-coliseum-italy.jpg') no-repeat fixed;
     background-size: cover;
     height: 34rem;
 }
