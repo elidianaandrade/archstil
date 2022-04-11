@@ -10,7 +10,7 @@
 # ARCHSTIL | History of Architectural Styles
 
 ## 🏛️ About the project
-Recreating [Netflix's](https://www.netflix.com/) initial interface, where I bring my version about Architectural Styles. Project developed for learning purposes in the [Digital Innovation One](https://www.dio.me/) course.
+Recreating [Netflix's](https://www.netflix.com/) initial interface, where I bring my version about Architectural Styles. This project was developed for learning purposes in the [Digital Innovation One](https://www.dio.me/) course.
 
 ### Why ArchStil?
 **Arch:** Architecture
