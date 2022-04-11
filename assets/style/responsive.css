@@ -9,6 +9,10 @@
         z-index: 10000;
     }
 
+    .main-content {
+        background: linear-gradient(rgba(0,0,0,.80), rgba(0,0,0,.40), rgba(0,0,0,100) 100%), url('../img/covers/cover-classic-coliseum-italy.jpg') no-repeat center fixed;
+    }
+
     .main-content .container {
         margin: 45rem 0 10rem 4rem;
         width: 70%;
