@@ -106,7 +106,12 @@ header .logo {
 .main-title {
     font-size: 3rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
+    color: white;
+}
+
+.menu-principal .home {
+    color:white
 }
 
 .main-subtitle {
