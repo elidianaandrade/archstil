@@ -14,3 +14,10 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+$('.menu-items').click(function (e)
+	{
+		$('.menu-items').removeClass('active');
+		$(this).addClass('active');
+	});

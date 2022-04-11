@@ -80,9 +80,10 @@ header .logo {
     margin-right: 0.625rem;
 }
 
-.menu-principal a:hover{
-    color: var(--white);
+.menu-items.active, .menu-items:hover {
+    color: white;
 }
+
 /* HEADER END */
 
 
@@ -108,10 +109,6 @@ header .logo {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 1rem 0;
     color: white;
-}
-
-.menu-principal .home {
-    color:white
 }
 
 .main-subtitle {
