@@ -39,7 +39,7 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-    background: var(--black);
+    background: black;
   }
   
   body::-webkit-scrollbar-thumb {
