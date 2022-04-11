@@ -1,9 +1,13 @@
 <div align="center">
-  <img alt="ArchStil" src="https://raw.githubusercontent.com/elidianaandrade/archstil-netflix-clone/main/assets/img/archstil-black-logo.png">
+  <a href="https://elidianaandrade.github.io/archstil/">
+    <img alt="ArchStil" src="https://raw.githubusercontent.com/elidianaandrade/archstil-netflix-clone/main/assets/img/archstil-black-logo.png">
+  </a>
 </div>
 <br>
 <div align="center">
-  <img alt="ArchStil" src="https://github.com/elidianaandrade/archstil-netflix-clone/blob/main/assets/img/archstil-screen.png?raw=true">
+  <a href="https://elidianaandrade.github.io/archstil/">
+    <img alt="ArchStil" src="https://github.com/elidianaandrade/archstil-netflix-clone/blob/main/assets/img/archstil-screen.png?raw=true">
+  </a>
 </div>
 <br>
 
