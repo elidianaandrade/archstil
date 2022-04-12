@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://elidianaandrade.github.io/archstil/">
-    <img alt="ArchStil" height="80" src="https://raw.githubusercontent.com/elidianaandrade/archstil-netflix-clone/main/assets/img/archstil-black-logo.png">
+    <img alt="ArchStil" height="60" src="https://raw.githubusercontent.com/elidianaandrade/archstil-netflix-clone/main/assets/img/archstil-black-logo.png">
   </a>
 </div>
 <br>
