@@ -27,5 +27,6 @@ Knowing that [Netflix](https://www.netflix.com/) is the junction between “Net�
 - JavaScript
 
 ## 🛠️ Utilities
-- [Photos by Pexels](https://www.pexels.com/)
-- [Netflix Font by Font Memes](https://fontmeme.com/netflix-font/)
+- **Photos:** [Pexels](https://www.pexels.com/)
+- **Icons:** [Font Awesome](https://fontawesome.com/icons)
+- **Netflix Font:** [Font Memes](https://fontmeme.com/netflix-font/)
