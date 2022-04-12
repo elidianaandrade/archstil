@@ -29,4 +29,5 @@ Knowing that [Netflix](https://www.netflix.com/) is the junction between “Net�
 ## 🛠️ Utilities
 - **Photos:** [Pexels](https://www.pexels.com/)
 - **Icons:** [Font Awesome](https://fontawesome.com/icons)
+- **Favicon:** [favicon.ico generator](https://www.favicon.cc/)
 - **Netflix Font:** [Font Memes](https://fontmeme.com/netflix-font/)
