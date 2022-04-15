@@ -15,7 +15,7 @@
     text-decoration: none;
     list-style: none;
     scrollbar-width: thin; /* Firefox */
-    scrollbar-color: #C5C5C5 #000; 
+    scrollbar-color: #555555 #000; 
   }
 
 body {
@@ -53,15 +53,26 @@ header .container {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
     position: absolute;
+    padding: 1rem 4rem;
     width: 100%;
     user-select: none;
 }
 
+header .content1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: left;  
+}
+
 header .logo {
     width: 8.8rem;
-    margin: 1.1rem 3.45rem 1.1rem 4rem;    
+}
+
+.menu-principal {
+    margin: 0 3rem;
 }
 
 .menu-principal > ul > li {
@@ -84,6 +95,25 @@ header .logo {
     color: white;
 }
 
+header .content2 {    /* icons */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: right;
+}
+
+.btn-search {
+    font-size: 1.2rem;
+    color: var(--white);
+    transition: .4s;
+    cursor: pointer;
+    visibility: hidden; /* ADD DPS */
+}
+
+.btn-search:hover {
+    transition: .4s;
+    opacity: 80%;
+}
 /* HEADER END */
 
 
