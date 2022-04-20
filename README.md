@@ -14,7 +14,7 @@
 # ARCHSTIL | History of Architectural Styles
 
 ## 🏛️ About the project
-Recreating [Netflix's](https://www.netflix.com/) initial interface, where I bring my version about Architectural Styles. This project was developed for learning purposes in the course of the [Digital Innovation One](https://www.dio.me/).
+Recreating [Netflix's](https://www.netflix.com/) initial interface, where I bring my version about [Architectural Styles](https://elidianaandrade.github.io/archstil). This project was developed for learning purposes in the course of the [Digital Innovation One](https://www.dio.me/).
 
 ### Why ArchStil?
 **Arch:** Architecture. **Stil:** Style in German
