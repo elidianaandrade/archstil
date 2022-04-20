@@ -83,8 +83,6 @@ body::-webkit-scrollbar {
 }
 
 .menu-principal > ul > li {
-    display: flex;
-    flex-direction: row;
     display: inline-block;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.125rem;
