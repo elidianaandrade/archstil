@@ -59,12 +59,12 @@ body::-webkit-scrollbar {
     width: 100%;
     user-select: none;
     position: fixed;
-    transition: background-color 0.4s linear;
+    transition: background-color 0.3s linear;
 }
 
 .container-header.scrolled {
     background-color: #000 !important;
-    transition: background-color 0.4s linear;
+    transition: background-color 0.3s linear;
 }
 
 .container-header .content1 {
@@ -102,7 +102,7 @@ body::-webkit-scrollbar {
     color: white;
 }
 
-header .content2 {    /* icons */
+.container-header .content2 {    /* icons */
     display: flex;
     flex-flow: row wrap;
     align-items: center;
