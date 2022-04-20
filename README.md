@@ -26,6 +26,16 @@ Knowing that [Netflix](https://www.netflix.com/) is the junction between “Net�
 [![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=00BFFF)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
+<!--
+## ⚙ Functionalities
+- [ ] Pop-up with brief history
+- [ ] B
+- [ ] C
+- [ ] D
+- [ ] E
+- [ ] F
+-->
+
 ## 🛠️ Utilities
 - **Photos:** [Pexels](https://www.pexels.com/)
 - **Icons:** [Font Awesome](https://fontawesome.com/icons)
