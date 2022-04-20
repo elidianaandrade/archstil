@@ -14,7 +14,7 @@
 # ARCHSTIL | History of Architectural Styles
 
 ## 🏛️ About the project
-Recreating [Netflix's](https://www.netflix.com/) initial interface, where I bring my version about Architectural Styles. This project was developed for learning purposes in the course of the [Digital Innovation One](https://www.dio.me/).
+Recreating [Netflix's](https://www.netflix.com/) initial interface, where I bring my version about [Architectural Styles](https://elidianaandrade.github.io/archstil). This project was developed for learning purposes in the course of the [Digital Innovation One](https://www.dio.me/).
 
 ### Why ArchStil?
 **Arch:** Architecture. **Stil:** Style in German
@@ -27,8 +27,9 @@ Knowing that [Netflix](https://www.netflix.com/) is the junction between “Net�
 [![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## ⚙ Functionalities
+- [x] Infinite listing carousel
 - [x] Change color of active menu item 
-- [ ] Menu position fixed and background color to black when scrolling down
+- [x] Menu position fixed and background color to black when scrolling down
 - [ ] Pop-up with brief history
 
 ## 🛠️ Utilities
