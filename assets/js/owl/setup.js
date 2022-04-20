@@ -1,3 +1,4 @@
+// CAROUSEL
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -14,10 +15,24 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+// CAROUSEL END
 
-
+// ACTIVE MENU
 $('.menu-items').click(function (e)
 	{
 		$('.menu-items').removeClass('active');
 		$(this).addClass('active');
 	});
+// ACTIVE MENU END
+
+// MENU BACKGROUND SCROLLING DOWN
+$(function () {
+    $(document).scroll(function () {
+      var $nav = $(".container-header");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+// MENU BACKGROUND SCROLLING DOWN END
+
+
+

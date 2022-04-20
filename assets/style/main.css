@@ -49,7 +49,7 @@ body::-webkit-scrollbar {
 
 
 /* HEADER STYLE */
-header .container {
+.container-header {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -58,16 +58,23 @@ header .container {
     padding: 1rem 4rem;
     width: 100%;
     user-select: none;
+    position: fixed;
+    transition: background-color 0.4s linear;
 }
 
-header .content1 {
+.container-header.scrolled {
+    background-color: #000 !important;
+    transition: background-color 0.4s linear;
+}
+
+.container-header .content1 {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: left;  
 }
 
-header .logo {
+.container-header .logo {
     width: 8.8rem;
 }
 
