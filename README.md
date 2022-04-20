@@ -1,4 +1,4 @@
-<div align="center">
+<div id="top" align="center">
   <a href="https://elidianaandrade.github.io/archstil/">
     <img alt="ArchStil" height="60" src="https://raw.githubusercontent.com/elidianaandrade/archstil-netflix-clone/main/assets/img/archstil-black-logo.png">
   </a>
@@ -31,3 +31,10 @@ Knowing that [Netflix](https://www.netflix.com/) is the junction between â€œNetâ
 - **Icons:** [Font Awesome](https://fontawesome.com/icons)
 - **Favicon:** [favicon.ico generator](https://www.favicon.cc/)
 - **Netflix Font:** [Font Memes](https://fontmeme.com/netflix-font/)
+
+
+<div align="right">
+  <a href="#top">
+    <img alt="Up" height="25" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angle-up.svg">
+  </a>
+</div>
