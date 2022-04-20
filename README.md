@@ -22,9 +22,9 @@ Recreating [Netflix's](https://www.netflix.com/) initial interface, where I brin
 Knowing that [Netflix](https://www.netflix.com/) is the junction between “Net” and “Flix” (Flicks), as the purpose of my proposal was to talk about architectural styles, I chose to make the junction of “Arch” (Architecture) and “Stil” (Style in German) . The choice to adopt a German word was inspired by the name of the Bauhaus.
 
 ## 💻 Technologies
-- HTML5
-- CSS3
-- JavaScript
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 🛠️ Utilities
 - **Photos:** [Pexels](https://www.pexels.com/)
