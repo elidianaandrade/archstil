@@ -29,7 +29,7 @@ Knowing that [Netflix](https://www.netflix.com/) is the junction between “Net�
 ## ⚙ Functionalities
 - [x] Infinite listing carousel
 - [x] Change color of active menu item 
-- [x] Menu position fixed and background color to black when scrolling down
+- [x] Menu background color change on scroll
 - [ ] Pop-up with brief history
 
 ## 🛠️ Utilities
