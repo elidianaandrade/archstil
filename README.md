@@ -1,11 +1,11 @@
 <div id="top" align="center">
-  <a href="https://elidianaandrade.github.io/archstil/">
+  <a href="https://archstil.netlify.app/">
     <img alt="ArchStil" height="60" src="https://raw.githubusercontent.com/elidianaandrade/archstil-netflix-clone/main/assets/img/archstil-black-logo.png">
   </a>
 </div>
 <br>
 <div align="center">
-  <a href="https://elidianaandrade.github.io/archstil/">
+  <a href="https://archstil.netlify.app/">
     <img alt="ArchStil" src="https://github.com/elidianaandrade/archstil-netflix-clone/blob/main/assets/img/archstil-screen.png?raw=true">
   </a>
 </div>
@@ -15,6 +15,8 @@
 
 ## 🏛️ About the project
 Recreating [Netflix's](https://www.netflix.com/) initial interface, where I bring my version about [Architectural Styles](https://elidianaandrade.github.io/archstil). This project was developed for learning purposes in the course of the [Digital Innovation One](https://www.dio.me/).
+
+🔗 [**View project**](https://archstil.netlify.app/)
 
 ### Why ArchStil?
 **Arch:** Architecture. **Stil:** Style in German
@@ -30,7 +32,6 @@ Knowing that [Netflix](https://www.netflix.com/) is the junction between “Net�
 - [x] Infinite listing carousel
 - [x] Change color of active menu item 
 - [x] Menu background color change on scroll
-- [ ] Pop-up with brief history
 
 ## 🛠️ Utilities
 - **Photos:** [Pexels](https://www.pexels.com/)
