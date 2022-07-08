@@ -35,7 +35,7 @@ Knowing that [Netflix](https://www.netflix.com/) is the junction between “Net�
 ## 🔍 References
 - [Repository Felipe Silva Aguiar](https://github.com/felipeAguiarCode/netflix-clone).
 - [Digital Innovation One](https://www.dio.me/).
-
+- [Netflix](https://www.netflix.com/).
 
 <div align="right">
   <a href="#top">
