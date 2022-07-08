@@ -1,6 +1,6 @@
 <div id="top" align="center">
   <a href="https://archstil.netlify.app/">
-    <img alt="ArchStil" src="https://github.com/elidianaandrade/utilities/blob/main/templates/README/covers/repositories/archstil.png?raw=true">
+    <img alt="ArchStil" src="https://github.com/elidianaandrade/utilities/blob/main/templates/README/img/covers/archstil.png?raw=true">
   </a>
 </div>
 
