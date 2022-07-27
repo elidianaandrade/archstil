@@ -25,7 +25,7 @@ Recriando a interface inicial da [Netflix](https://www.netflix.com/), onde trago
 - **Netflix Fonte:** [Font Memes](https://fontmeme.com/netflix-font/)
 
 ## 🔍 Referências
-- [Repositório Felipe Silva Aguiar](https://github.com/felipeAguiarCode/netflix-clone).
+- [Repositório do Instrutor Felipe Silva Aguiar](https://github.com/felipeAguiarCode/netflix-clone).
 - [Digital Innovation One](https://www.dio.me/).
 - [Netflix](https://www.netflix.com/).
 
